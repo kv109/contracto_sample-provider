@@ -42,3 +42,18 @@
 ].each do |note|
   Note.create note
 end
+
+[
+  {
+    "first_name" => "Albert",
+    "last_name" => "Einstein",
+    "age" => 30
+  },
+  {
+    "first_name" => "Kurt",
+    "last_name" => "Godel",
+    "age" => 35
+  }
+].each do |user_attributes|
+  User.create(user_attributes)
+end
