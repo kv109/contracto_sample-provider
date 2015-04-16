@@ -5,7 +5,8 @@ ruby '2.2.0'
 gem 'faker'
 
 group :test do
-  gem 'contracto-rspec'#, git: 'https://github.com/kv109/contracto-rspec.git'
+  gem 'contracto-rspec'
+  # gem 'contracto-rspec', path: '/Users/kv109/projects/private/contracto-rspec'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
