@@ -56,7 +56,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
-    contracto (0.4.2)
+    contracto (0.4.3)
       daemons (~> 1.2)
       sinatra (~> 1.4)
     contracto-rspec (0.1.0)
@@ -189,6 +189,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.1.0)
+  contracto
   contracto-rspec
   faker
   jbuilder (~> 2.0)
